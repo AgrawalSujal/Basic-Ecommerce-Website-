@@ -7,7 +7,7 @@ import Skeleton from "react-loading-skeleton";
 import { toast } from "react-toastify";
 import { GoArrowLeft } from "react-icons/go";
 import ScrollToTop from "../components/ScrollToTop";
-import "./product.css";
+// import "./Product.css";
 export const Product = () => {
   const { id } = useParams();
   const [product, setProduct] = useState({});

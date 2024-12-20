@@ -194,3 +194,32 @@ GoArrowLeft:hover {
 }
 
 /* roboto font styling */
+
+/* product page styling */
+/* Add custom styles for card spacing and responsiveness */
+.product-list .card {
+  margin-bottom: 20px; /* Add space at the bottom of each card */
+}
+
+@media (min-width: 576px) {
+  .product-list .col-sm-6 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .product-list .col-md-4 {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-list .col-lg-3 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+/* product page styling */
